@@ -1,0 +1,113 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.popup {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    min-height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 6, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.6);
+}
+.botaoFechar {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    // Our button
+    text-decoration: none;
+    height: 25px;
+    border-radius: 5px;
+    // Primary Button
+    // min-width: 80px;
+    background: #5a6268;
+    //background: rgb(92, 184, 178);
+    //background: rgb(91, 194, 231);
+    color: white;
+    width: 30%;
+    // Basic Button
+    outline: transparent;
+    float: right;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 11px;
+    font-weight: bold;
+    border-width: 0;
+    text-align: center;
+    //  cursor: pointer;
+    display: inline-block;
+    padding: 0;
+}
+.CustomButtonEditar {
+    background: rgb(134, 187, 183);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    width: auto;
+    font-size: 14px;
+    color: white;
+    // Our button
+    text-decoration: none;
+    height: auto;
+    border-radius: 5px;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-width: 0;
+    text-align: center;
+    // cursor: pointer;
+    padding: 8px 40px;
+    display: inline-block;
+}
+.CustomButtonRemover {
+    background: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    width: auto;
+    font-size: 14px;
+    color: white;
+    // Our button
+    text-decoration: none;
+    height: auto;
+    border-radius: 5px;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-width: 0;
+    text-align: center;
+    // cursor: pointer;
+    padding: 8px 40px;
+    display: inline-block;
+}
+
+.CustomButtonAdicionar {
+    background: #5cb8b2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    width: auto;
+    font-size: 14px;
+    color: white;
+    // Our button
+    text-decoration: none;
+    height: auto;
+    border-radius: 5px;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-width: 0;
+    text-align: center;
+    // cursor: pointer;
+    padding: 8px 40px;
+    display: inline-block;
+}
